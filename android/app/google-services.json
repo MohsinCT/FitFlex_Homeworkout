@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283460147985",
+    "project_id": "fitflexhomeworkout",
+    "storage_bucket": "fitflexhomeworkout.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283460147985:android:6b1c4105df0c50bd05cab0",
+        "android_client_info": {
+          "package_name": "com.example.fitflex_homeworkout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByJhapzQPRFxwFdWUAedSTvtG4Izr0e5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
