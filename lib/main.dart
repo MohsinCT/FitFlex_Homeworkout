@@ -15,7 +15,6 @@ void main()async{
     Hive.registerAdapter(WorkoutModelAdapter());
   }
   await fetchWorkouts();
-  
   runApp(const Myapp());
 }
 

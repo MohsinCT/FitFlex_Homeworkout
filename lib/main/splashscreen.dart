@@ -69,7 +69,7 @@ class _SplashscreenState extends State<Splashscreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Fit-Flex',
+                        'Fit-Launch',
                         style: TextStyle(
                           color: AppColors.white,
                           fontSize: MediaQuery.of(context).size.width * 0.07,

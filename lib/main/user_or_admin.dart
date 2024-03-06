@@ -68,7 +68,7 @@ class _UserOrAdminState extends State<UserOrAdmin> {
                       Padding(
                         padding: const EdgeInsets.all(15.0),
                         child: Text(
-                          'Fit-Flex',
+                          'Fit-Launch',
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 30,

@@ -1,4 +1,6 @@
 import 'package:fitflex_homeworkout/constants/constants.dart';
+import 'package:fitflex_homeworkout/constants/privacy_policy.dart';
+import 'package:fitflex_homeworkout/constants/terms_and_conditions.dart';
 import 'package:flutter/material.dart';
 
 class Settings extends StatefulWidget {
@@ -9,12 +11,6 @@ class Settings extends StatefulWidget {
 }
 
 class _SettingsState extends State<Settings> {
-  List<String> items = [
-    'Share App',
-    'Rate Us',
-    'Feedback',
-    'Log Out'
-  ];
 
   // List of IconData representing different icons
   List<IconData> icons = [
@@ -42,18 +38,21 @@ class _SettingsState extends State<Settings> {
             end: Alignment.topCenter,
           ),
         ),
-        child: ListView.builder(
-          itemCount: items.length,
-          itemBuilder: (context, index) {
-            return ListTile(
-              leading: Icon(icons[index]), 
-              title: Text(items[index]),
-              onTap: () {
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: (){
+               Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=>const TermsConditions()));
+              }, icon: const Icon(Icons.note)),
+              IconButton(
+              onPressed: (){
+                 Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=>const PrivacyPolicy()));
+              }, icon:const Icon(Icons.pages) ),
+
+      
               
-              },
-            );
-          },
-        ),
+          ],
+        )
       ),
     );
   }

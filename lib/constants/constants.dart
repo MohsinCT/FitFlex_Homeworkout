@@ -21,7 +21,7 @@ class Images {
   static const shoulderAdvanced = 'lib/assets/images/advanced/imgea5.jpeg';
   static const backgroundImg = 'lib/assets/images/backgroundimg.jpeg';
   static const splashscreen = 'lib/assets/images/splashscreen.jpeg';
-  static const logo = 'lib/assets/images/logo.jpeg';
+  static const logo = 'lib/assets/images/logo-2.png';
   static const lowerbody = 'lib/assets/images/lowerbody.jpeg';
 }
 
