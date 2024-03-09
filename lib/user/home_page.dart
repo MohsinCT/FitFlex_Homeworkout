@@ -2,7 +2,7 @@
 
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:fitflex_homeworkout/main/reports/report_page.dart';
-import 'package:fitflex_homeworkout/main/settings_page.dart';
+import 'package:fitflex_homeworkout/main/reports/settings_page/settings_page.dart';
 import 'package:fitflex_homeworkout/user/workout_page.dart';
 import 'package:flutter/material.dart';
 

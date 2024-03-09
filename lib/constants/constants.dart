@@ -38,5 +38,11 @@ class AppColors {
   static const  green = Colors.green;
   static const  deepPurple = Colors.deepPurple;
   static const verylightBlue =  Color.fromARGB(255, 190, 207, 221);
+  static const lightBlue = Color.fromARGB(255, 7, 18, 227);
+}
+class AppIcons{
+  static const IconData policy = IconData(0xe4d9, fontFamily: 'MaterialIcons');
+  static const IconData termsAndConditions = Icons.book;
+  static const IconData mail = Icons.mail;
 }
 

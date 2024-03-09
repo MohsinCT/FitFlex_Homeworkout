@@ -48,7 +48,7 @@ class _PrivacyPolicyState extends State<PrivacyPolicy> {
         automaticallyImplyLeading: false,
         toolbarHeight: 100,
         title: const Text(
-          'Terms & Conditions',
+          'Privacy & Policy',
           style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
         ),
       ),

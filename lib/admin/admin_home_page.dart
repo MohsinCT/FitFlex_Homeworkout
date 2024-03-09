@@ -5,7 +5,7 @@ import 'package:fitflex_homeworkout/admin/exercises/adding_exercise.dart';
 import 'package:fitflex_homeworkout/admin/workout_admin_page.dart';
 import 'package:fitflex_homeworkout/constants/constants.dart';
 import 'package:fitflex_homeworkout/main/reports/report_page.dart';
-import 'package:fitflex_homeworkout/main/settings_page.dart';
+import 'package:fitflex_homeworkout/main/reports/settings_page/settings_page.dart';
 import 'package:flutter/material.dart';
 
 class AdminHomePage extends StatefulWidget {

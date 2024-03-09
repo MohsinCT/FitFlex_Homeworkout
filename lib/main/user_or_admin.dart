@@ -44,7 +44,7 @@ class _UserOrAdminState extends State<UserOrAdmin> {
             width: 300,
             height: 400,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 236, 229, 229).withOpacity(0.8),
+              color: AppColors.white.withOpacity(0.8),
               borderRadius: BorderRadius.all(Radius.circular(10)),
             ),
             child: Column(
@@ -71,8 +71,8 @@ class _UserOrAdminState extends State<UserOrAdmin> {
                           'Fit-Launch',
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 30,
-                              color: Color.fromARGB(255, 0, 0, 0)),
+                              fontSize: 25,
+                              color: AppColors.black),
                         ),
                       ),
                     ],
@@ -89,7 +89,7 @@ class _UserOrAdminState extends State<UserOrAdmin> {
                             width: 100,
                             height: 100,
                             decoration: BoxDecoration(
-                                color: Colors.white, shape: BoxShape.circle),
+                                color: AppColors.white, shape: BoxShape.circle),
                             child: IconButton(
                               onPressed: () {
                                 Navigator.of(context).push(MaterialPageRoute(
@@ -97,7 +97,7 @@ class _UserOrAdminState extends State<UserOrAdmin> {
                               },
                               icon: Icon(
                                 Icons.admin_panel_settings_rounded,
-                                color: Color.fromARGB(255, 7, 18, 227),
+                                color: AppColors.lightBlue,
                               ),
                               iconSize: 70,
                             ),
@@ -120,7 +120,7 @@ class _UserOrAdminState extends State<UserOrAdmin> {
                               width: 100,
                               height: 100,
                               decoration: const BoxDecoration(
-                                color: Colors.white,
+                                color: AppColors.white,
                                 shape: BoxShape.circle,
                               ),
                               child: IconButton(
@@ -129,7 +129,7 @@ class _UserOrAdminState extends State<UserOrAdmin> {
                                 },
                                 icon: const Icon(
                                   Icons.person_2,
-                                  color: Color.fromARGB(255, 7, 18, 227),
+                                  color: AppColors.lightBlue,
                                 ),
                                 iconSize: 70,
                               )),
