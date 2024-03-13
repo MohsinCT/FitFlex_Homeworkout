@@ -83,7 +83,7 @@ class _AMainCatFullBodyState extends State<AMainCatFullBody> {
         SizedBox(
           height: 20,
         ),
-        containerDays('Day 4', context,(){
+        containerDays('Day 3', context,(){
          Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=>DayFourA()));
         }),
         SizedBox(
